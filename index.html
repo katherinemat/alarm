@@ -2,11 +2,18 @@
 <html>
   <head>
     <link rel="stylesheet" href="build/css/vendor.css">
+    <link rel="stylesheet" href="styles.css" type="text/css">
     <script src="build/js/vendor.min.js"></script>
     <script type="text/javascript" src="build/js/app.js"></script>
     <title>Alarm</title>
   </head>
   <body>
-    <p id="time"></p>
+    <h1 id="time"></h1>
+    <form id="alarm">
+      <h1>Select alarm time</h1>
+      <input type="time" name="alarm-time" id="alarm-time">
+      <button type="submit" name="button">Submit</button>
+    </form>
+    <div class="sound"></div>
   </body>
 </html>
